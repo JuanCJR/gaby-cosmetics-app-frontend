@@ -28,11 +28,71 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.primaryButton {
+  border-color: #f78fb3;
+  background-color: white;
+  color: #f8a5c2;
 }
+
+.primaryButton :hover {
+  border-color: #f78fb3;
+  background-color: #f8a5c2;
+  color: white;
+}
+
+.carousel-indicators li {
+  background-color: #f78fb3;
+  width: 50px;
+  height: 10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid #f78fb3;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after {
+  content: ">";
+  font-size: 55px;
+  color: #f8a5c2;
+}
+
+.carousel-control-prev-icon:after {
+  content: "<";
+  font-size: 55px;
+  color: #f8a5c2;
+}
+
+.carousel-div {
+  height: 25rem;
+  background-color: #f8a5c20c;
+}
+
+.carousel-caption {
+  color: #ee3979;
+  background-color: rgba(255, 255, 255, 0.459);
+}
+
+.shadowCard {
+  box-shadow: 0 7px 14px 0 rgba(59, 65, 94, 0.1),
+    0 3px 6px 0 rgba(0, 0, 0, 0.07);
+  /* border-top-right-radius: 0.375rem; */
+  border-bottom-right-radius: 0.375rem;
+}
+
+.page-link {
+  color: #282c34;
+}
+
+.page-item.active .page-link {
+  background-color: #f8a5c2;
+  color: white;
+  border-color: #f78fb3;
+}
+
